@@ -1,13 +1,8 @@
 # -*- coding: utf-8 -*-
-import sys
-sys.path.append("C:/Users/daisa/プログラミング/Python/2023/卒研/(自作)株価予測2/nikkei_simulation")
-print(sys.path)
 import function as fc
 import numpy as np
 import networkx as nx
 import os
-import pickle
-import pandas as pd
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 print(os.getcwd())
 
